@@ -270,7 +270,11 @@ Ancak, sanallaştırılmış mikroişlemci yorumlama ortamları da bazı dezavan
 
 ## 7.1. GUI (Grafik Arayüz) Tasarımı
 
-[arayuz fotosu]
+![image](https://github.com/sabir-suleyman/Risc-Mini/blob/main/download%20(1).png)
+
+## 7.2. TUI (Terminal Arayüzü) Üzerinde Çalışan RISC-Mini Instance’ı
+
+![image](https://github.com/sabir-suleyman/Risc-Mini/blob/main/download%20(2).png)
 
 # 8. KAYNAKLAR
 
