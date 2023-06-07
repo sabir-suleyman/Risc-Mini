@@ -1,3 +1,8 @@
+## Bu Dosyayı başka dillerde oku:
+<a href="README.en.md"><img src=""></a>
+<a href="README.md"><img src="https://img.shields.io/badge/-T%C3%9CRK%C3%87E-red?style=for-the-badge"></a>
+
+
 # Proje özeti
 RISC-V ISA’inin 32I Genişletmesi’nden esinlenilerek RISC (Reduced Instruction Set Computer) bir Komut Küme Mimarisi (Instruction Set Architecture, ISA) tasarlanmış, 32 yazmaçlı ve 5 bayraklı bir mikroişlemci üzerine kurgulanmıştır. Tasarlanan komut küme mimarisi (buradan sonra KKM olarak kısaltılacaktır) Assembly dilinin x86 ve RISCV tanımındaki dialektleri göz önünde bulundurularak, özel tasarladığımız KKM için bir transpiler ve parser ile komutları çalıştıran simülasyon ortamı var edilmiştir. “RISC-Mini” olarak adlandırdığımız yeni dialekt, temelde 21 komuttan oluşmaktadır. Simülasyon ortamı hem grafik hem de konsol olarak iki farklı formda var edilmiştir. Grafik arayüz tasarımı için Figma, kodlanması için Python’ın Tkinter kütüphanesi kullanılmıştır.
 
