@@ -271,13 +271,14 @@ Ancak, sanallaştırılmış mikroişlemci yorumlama ortamları da bazı dezavan
 [arayuz fotosu]
 
 # 8. KAYNAKLAR
-1.https://www.eng.auburn.edu/~sylee/ee2220/8086_instruction_set.html
-2.https://docs.python.org/3/library/tkinter.html
-3.https://dev.to/yash_makan/4-ways-to-create-modern-gui-in-python-in-easiest-way-possible5e0e
-4.https://www.activestate.com/blog/top-10-python-gui-frameworks-compared/
-5.https://en.wikipedia.org/wiki/Intel_8086
-6.http://www.math.uaa.alaska.edu/~afkjm/cs221/handouts/irvine2.pdf
-7.https://www.youtube.com/watch?v=Ps0JFsyX2fU
+
+1. https://www.eng.auburn.edu/~sylee/ee2220/8086_instruction_set.html
+2. https://docs.python.org/3/library/tkinter.html
+3. https://dev.to/yash_makan/4-ways-to-create-modern-gui-in-python-in-easiest-way-possible5e0e
+4. https://www.activestate.com/blog/top-10-python-gui-frameworks-compared/
+5. https://en.wikipedia.org/wiki/Intel_8086
+6. http://www.math.uaa.alaska.edu/~afkjm/cs221/handouts/irvine2.pdf
+7. https://www.youtube.com/watch?v=Ps0JFsyX2fU
 8.https://en.wikipedia.org/wiki/RISC-V
 9.https://www.youtube.com/watch?v=Qd-jJjduWeQ
 10.https://www.youtube.com/watch?v=66jIYW5kbj4
