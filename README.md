@@ -282,7 +282,7 @@ Ancak, sanallaştırılmış mikroişlemci yorumlama ortamları da bazı dezavan
 9.https://www.youtube.com/watch?v=Qd-jJjduWeQ
 10.https://www.youtube.com/watch?v=66jIYW5kbj4
 11.https://www.youtube.com/watch?v=7A_csP9drJw
-12. https://www.cs.cornell.edu/courses/cs3410/2019sp/riscv/interpreter/
+12.https://www.cs.cornell.edu/courses/cs3410/2019sp/riscv/interpreter/
 13. https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf
 14. https://marz.utk.edu/my-courses/cosc230/book/example-risc-v-assembly-programs/
 15. https://msyksphinz-self.github.io/riscv-isadoc/html/regs.html
