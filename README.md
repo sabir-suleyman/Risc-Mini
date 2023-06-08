@@ -1,6 +1,6 @@
 ## Read this File in other languages:
-<a href="README.en.md"><img src="https://img.shields.io/badge/-ENGLISH-red?style=for-the-badge"></a>
-<a href="README.md"><img src="https://img.shields.io/badge/-T%C3%9CRK%C3%87E-red?style=for-the-badge"></a>
+<a href="README.md"><img src="https://img.shields.io/badge/-ENGLISH-red?style=for-the-badge"></a>
+<a href="README.tr.md"><img src="https://img.shields.io/badge/-T%C3%9CRK%C3%87E-red?style=for-the-badge"></a>
 
 # Project brief
 Inspired by the 32I Extension of the RISC-V ISA, a RISC (Reduced Instruction Set Computer) Instruction Set Architecture (ISA) was designed and built on a microprocessor with 32 registers and 5 flags. The designed instruction set architecture (hereinafter abbreviated as ICC) is based on the x86 and RISCV dialects of the assembly language and a transpiler and parser for the custom designed ICC and a simulation environment to execute the instructions. The new dialect, which we call "RISC-Mini", basically consists of 21 instructions. The simulation environment is available in two different forms, both graphical and console. Figma was used for the graphical interface design and Python's Tkinter library was used for the coding.
