@@ -3,12 +3,12 @@
 <a href="README.tr.md"><img src="https://img.shields.io/badge/-T%C3%9CRK%C3%87E-red?style=for-the-badge"></a>
 
 
-# Proje özeti
+# 🧩 Proje özeti
 RISC-V ISA’inin 32I Genişletmesi’nden esinlenilerek RISC (Reduced Instruction Set Computer) bir Komut Küme Mimarisi (Instruction Set Architecture, ISA) tasarlanmış, 32 yazmaçlı ve 5 bayraklı bir mikroişlemci üzerine kurgulanmıştır. Tasarlanan komut küme mimarisi (buradan sonra KKM olarak kısaltılacaktır) Assembly dilinin x86 ve RISCV tanımındaki dialektleri göz önünde bulundurularak, özel tasarladığımız KKM için bir transpiler ve parser ile komutları çalıştıran simülasyon ortamı var edilmiştir. “RISC-Mini” olarak adlandırdığımız yeni dialekt, temelde 21 komuttan oluşmaktadır. Simülasyon ortamı hem grafik hem de konsol olarak iki farklı formda var edilmiştir. Grafik arayüz tasarımı için Figma, kodlanması için Python’ın Tkinter kütüphanesi kullanılmıştır.
 
 
 
-# Takım Üyeleri
+# 🏆 Takım Üyeleri
 
 | İsim                  | GitHub Kullanıcı Adı                                |
 |-----------------------|-----------------------------------------------------|
@@ -20,7 +20,7 @@ RISC-V ISA’inin 32I Genişletmesi’nden esinlenilerek RISC (Reduced Instructi
 
 <br>
 
-# 1. GİRİŞ
+# 1. GİRİŞ 💡
 
 ## 1.1. Proje Önerisinin Önemi
 Günümüzde mikroişlemci tasarımı öğrenmeye başlamanın en doğru yolu temellerde yer alan tarihi işlemcilerin ve yonga setlerinin nasıl icat edildiğini incelemek ile mümkün olacaktır. Bu noktada yazdığımız simülasyon araçları, gerekli olan eğitim ve deney ortamlarını, fiziksel olarak o yongaya sahip olmayanların da kullanmasını kolaylaştırarak fırsat eşitliği sağlamaktadır. Bir mikroişlemcinin iç işleyişini dünyayı değiştirmiş gerçek bir yongayı deneyimleyerek öğrenmek, bu aracı kullanan öğrencilerin ilerleyen çalışmaları ve araştırmaları için anektodal bilgi edinmelerini sağlayacaktır.
@@ -29,7 +29,7 @@ Günümüzde mikroişlemci tasarımı öğrenmeye başlamanın en doğru yolu te
 
 Gerçek zamanlı bir mikroişlemci simülasyonu sunmak, mikroişlemciye özgü Assembly dili ile alınan komut girişlerini anında makine kodu olarak görüntülemek ve sanal bir bellek üzerinde değişiklikler yaparak gerçek bir bilgisayarın donanımsal arayüzünü kolayca erişilebilir ve deney ortamlarında kullanılabilir hale getirmek.
 
-# 2. Yazılımın Detayları
+# 2. Yazılımın Detayları 👨‍💻
 
 ## 2.1. Mikroişlemcinin İç Yapısı
 
@@ -154,7 +154,7 @@ saklar. Eğer sayı verilen formatta okunamıyorsa `x4` yazmacına `1` değeri k
 | `X2`     | Sayı kabul formatı (0: ikili; 1: onlu: 2: onaltılık)     |
 
 
-# 3. YÖNTEM
+# 3. YÖNTEM 📚
 
 Komut seti simüle edilecek mikroişlemcinin seçilmesinde göz önünde bulundurduğumuz iki ana kriter var: Komut setinin basitliği ve güncel işlemci tasarımlarına benzerliği. Bu kriterleri göz önünde bulundurarak Zilog Z80, Konrad Zuse’un Z2’si, Intel C4004, 8086 ve 8088 detaylı inceledik. Son olarak da RISCV üzerinde inceleme yaptık ve bundan esinlenerek kendi mikroişlemcimiz olan “RISC-Mini”yi oluşturmaya karar verdik. Geliştirilecek grafik arayüzlü ortamın temel bileşenlerini aşağıdakiler olarak belirledik:
 
@@ -167,7 +167,7 @@ Komut seti simüle edilecek mikroişlemcinin seçilmesinde göz önünde bulundu
 Arayüzün tasarlanmasında geniş camialar tarafından kabul görmüş olan Figma aracının kullanılmasına karar verilmiş, Python ile GUI geliştirilmesinde ise en temel ve yaygın olan Tkinter modülü kullanım için seçilmiştir.
 
 
-# 4. KURAMSAL TEMELLER ve KAYNAK ARAŞTIRMASI
+# 4. KURAMSAL TEMELLER ve KAYNAK ARAŞTIRMASI 🔎
 
 Çalışmalarımıza başlamadan önce mikroişlemcinin gereksinimlerini ve neden kullanılması gerektiğini araştırarak başladık. 
 
@@ -182,13 +182,13 @@ Bayraklar ise durumları ve hataları belirlemek için kullanılmalıdır. Bayra
 Kullanıcı arayüzü, mikroişlemci simülasyonunun kullanıcı tarafından etkileşimli olarak kontrol edilebilmesini sağlamak için kullanılmaktadır. Kullanıcı arayüzünde, kullanıcının kodu girebileceği bir metin kutusu bulunmaktadır. Buradaki kodun işlenmesi sonrasında bellekte, yazmaçlarda ve bayraklarda oluşan değişimleri takip edebileceğimiz bir alan bulunmaktadır. Bu alanları adım adım takip edebilmek hata ayıklama işlevselliğini sağlamaktadır.
 
 
-# 5. SONUÇ (TARTIŞMA ve SONUÇ)
+# 5. SONUÇ (TARTIŞMA ve SONUÇ) 💬
 
 Sanallaştırılmış mikroişlemci yorumlama ortamları, birçok avantaj sunar. Bunlar arasında, farklı mikroişlemci mimarileri üzerinde çalışmanın kolaylığı, çeşitli ölçeklendirme seviyesinde çalışabilme yeteneği, verimli kod testi ve geliştirme olasılığı bulunmaktadır. Sanallaştırılmış mikroişlemci yorumlama ortamları, daha az donanım gereksinimiyle daha fazla sayıda sistem ve cihazın taklit edilebilmesine imkân sağlar.
 
 Ancak, sanallaştırılmış mikroişlemci yorumlama ortamları da bazı dezavantajlara sahiptir. En büyük dezavantajı, gerçek sistemde olabilecek performans sorunlarının istenen şekilde taklit edilememesidir. Ayrıca, sanallaştırılmış mikroişlemci yorumlama ortamları, simülasyon teknolojilerinin birleştirilmesiyle oluşturulduklarından, sistem kaynaklarına daha fazla yük indirirler. Sonuç olarak, sanallaştırılmış mikroişlemci yorumlama ortamları, mikroişlemci tabanlı sistemlerin test edilmesi ve geliştirilmesi için önemli bir araçtır. Farklı özellikleri ve avantajları ile, kullanıcıların ihtiyaçlarına göre değerlendirilmelidir. Sanallaştırılmış mikroişlemci yorumlama ortamları, geliştirilmesi gereken yeni cihaz ve sistemlerin tasarım ve test süreçlerinde kullanılabilir. Ancak, gerçek sistem performansını tam olarak taklit edememe dezavantajı dikkate alınmalıdır.
 
-# 6. KKM Üzerinde Çalışan Örnekler
+# 6. KKM Üzerinde Çalışan Örnekler 📝
 
 ## 6.1. Kullanıcıdan alınan 2 sayıyı toplayan program
 
@@ -271,7 +271,7 @@ Ancak, sanallaştırılmış mikroişlemci yorumlama ortamları da bazı dezavan
 
 ```
 
-# 7. Programdan Görseller
+# 7. Programdan Görseller 📸
 
 ## 7.1. GUI (Grafik Arayüz) Tasarımı
 
@@ -281,7 +281,7 @@ Ancak, sanallaştırılmış mikroişlemci yorumlama ortamları da bazı dezavan
 
 ![image](https://github.com/sabir-suleyman/Risc-Mini/blob/main/download%20(2).png)
 
-# 8. KAYNAKLAR
+# 8. KAYNAKLAR ⚙
 
 1. https://www.eng.auburn.edu/~sylee/ee2220/8086_instruction_set.html
 2. https://docs.python.org/3/library/tkinter.html
