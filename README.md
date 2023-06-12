@@ -2,12 +2,12 @@
 <a href="README.md"><img src="https://img.shields.io/badge/-ENGLISH-red?style=for-the-badge"></a>
 <a href="README.tr.md"><img src="https://img.shields.io/badge/-T%C3%9CRK%C3%87E-red?style=for-the-badge"></a>
 
-# Project brief
+# 🧩 Project brief
 Inspired by the 32I Extension of the RISC-V ISA, a RISC (Reduced Instruction Set Computer) Instruction Set Architecture (ISA) was designed and built on a microprocessor with 32 registers and 5 flags. The designed instruction set architecture (hereinafter abbreviated as ICC) is based on the x86 and RISCV dialects of the assembly language and a transpiler and parser for the custom designed ICC and a simulation environment to execute the instructions. The new dialect, which we call "RISC-Mini", basically consists of 21 instructions. The simulation environment is available in two different forms, both graphical and console. Figma was used for the graphical interface design and Python's Tkinter library was used for the coding.
 
 
 
-# Team Members
+# 🏆 Team Members
 
 | Name                  | GitHub Username                                     |
 |-----------------------|-----------------------------------------------------|
@@ -19,7 +19,7 @@ Inspired by the 32I Extension of the RISC-V ISA, a RISC (Reduced Instruction Set
 
 <br>
 
-# 1. INTRODUCTION
+# 1. INTRODUCTION 💡
 
 ## 1.1. Importance of Project Proposal
 Nowadays, the best way to start learning microprocessor design is to study how historical processors and chipsets were invented. At this point, the simulation tools we have written provide equal opportunity by making it easier for those who do not physically own the chip to use the necessary training and experimentation environments. Learning the inner workings of a microprocessor by experiencing a real chip that has changed the world will provide anecdotal information for students using this tool for their future studies and research.
@@ -28,7 +28,7 @@ Nowadays, the best way to start learning microprocessor design is to study how h
 
 Providing a real-time microprocessor simulation, displaying microprocessor-specific assembly language instruction inputs as machine code on the fly, and modifying a virtual memory to make the hardware interface of a real computer easily accessible and usable in experimental environments.
 
-# 2. Details of the Software
+# 2. Details of the Software 👨‍💻
 
 ## 2.1. Internal Structure of the Microprocessor
 
@@ -151,7 +151,7 @@ Converts the read character string to a number according to the given number acc
 | `X2`     | Number acceptance format (0: binary; 1: decimal; 2: hexadecimal)     |
 
 
-# 3. METHOD
+# 3. METHOD 📚
 
 There are two main criteria we consider when choosing a microprocessor to simulate the instruction set: Simplicity of the instruction set and similarity to current processor designs. Keeping these criteria in mind, we analyzed the Zilog Z80, Konrad Zuse's Z2, Intel C4004, 8086 and 8088 in detail. Finally, we analyzed RISCV and decided to create our own microprocessor "RISC-Mini" inspired by it. We determined the basic components of the graphical interface environment to be developed as follows:
 
@@ -164,7 +164,7 @@ There are two main criteria we consider when choosing a microprocessor to simula
 For the design of the interface, it was decided to use the Figma tool, which is widely accepted by the community, and for GUI development with Python, the Tkinter module, which is the most basic and widespread, was chosen for use.
 
 
-# 4. THEORETICAL BASIS and SOURCE RESEARCH
+# 4. THEORETICAL BASIS and SOURCE RESEARCH 🔎
 
 Before starting our work, we started by investigating the requirements of the microprocessor and why it should be used. 
 
@@ -179,13 +179,13 @@ Flags should be used to identify states and errors. Flags are set after the exec
 The user interface is used to enable interactive control of the microprocessor simulation by the user. The user interface contains a text box where the user can enter the code. There is an area where we can monitor the changes in memory, registers and flags after the code is processed. Being able to follow these areas step by step provides debugging functionality.
 
 
-# 5. CONCLUSION (DISCUSSION and CONCLUSION)
+# 5. CONCLUSION (DISCUSSION and CONCLUSION) 💬
 
 Virtualized microprocessor interpretation environments offer many advantages. These include the ease of working on different microprocessor architectures, the ability to work at various scaling levels, and the possibility of efficient code testing and development. Virtualized microprocessor interpretation environments allow a larger number of systems and devices to be emulated with fewer hardware requirements.
 
 However, virtualized microprocessor interpretation environments also have some disadvantages. The biggest disadvantage is that performance issues that may occur in the real system cannot be emulated as desired. In addition, virtualized microprocessor interpretation environments are built by combining simulation technologies, which places a higher burden on system resources. In conclusion, virtualized microprocessor interpretation environments are an important tool for testing and development of microprocessor-based systems. With their different features and advantages, they should be evaluated according to users' needs. Virtualized microprocessor interpretation environments can be used in the design and testing of new devices and systems that need to be developed. However, the disadvantage of not being able to exactly mimic real system performance should be taken into account.
 
-# 6. Examples Running on KKM
+# 6. Examples Running on KKM 📝
 
 ## 6.1. Program that adds 2 numbers received from the user
 
@@ -268,7 +268,7 @@ However, virtualized microprocessor interpretation environments also have some d
 
 ```
 
-# 7. Images from the Program
+# 7. Images from the Program 📸
 
 ## 7.1. GUI (Graphical Interface) Design
 
@@ -278,7 +278,7 @@ However, virtualized microprocessor interpretation environments also have some d
 
 ![image](https://github.com/sabir-suleyman/Risc-Mini/blob/main/download%20(2).png)
 
-# 8. SOURCES
+# 8. SOURCES ⚙
 
 1. https://www.eng.auburn.edu/~sylee/ee2220/8086_instruction_set.html
 2. https://docs.python.org/3/library/tkinter.html
